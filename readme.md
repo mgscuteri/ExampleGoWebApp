@@ -66,7 +66,6 @@ Included in this project in an Advanced Rest Client (ARC) project export, which 
 ###### "/Markets/CreateMarket" ("POST")
 
 	- Creates a new Market (AKA College)
-
 	- Responds with the newly created ObjectId (string)
 
 ###### "/Markets/UpdateMarket" ("POST")
