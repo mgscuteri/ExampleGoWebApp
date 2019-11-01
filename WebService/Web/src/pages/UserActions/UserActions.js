@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 
-class ThemeSongs extends React.Component {  
+class UserActions extends React.Component {  
     constructor(props) {
       super(props);
       var environmentVariables = {}
@@ -152,4 +152,4 @@ class ThemeSongs extends React.Component {
     }
   }
 
-export default ThemeSongs
+export default UserActions

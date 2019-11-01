@@ -11,12 +11,12 @@
   padding-bottom: 15px;
   min-height: 300px;
   
-  color: #fff;
-	background: linear-gradient(-45deg, #23A6D5, #23D5AB, #ffc942, #EE7752);
+  color: black;
+	background: linear-gradient(-45deg, #fbffd9, #d4d8ff, #baedff, #d9fff2);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 35s ease infinite;
+	-moz-animation: Gradient 35s ease infinite;
+	animation: Gradient 35s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -40,10 +40,10 @@
 .header {
   vertical-align: middle;
   font-family: Helvetica, sans-serif;
-  background-color: #353BCC;
+  background-color: white;
   margin: auto;
   line-height: 50px;
-  color: white;
+  color: black;
   font-size: 1.5em;
   margin: 0;
 }
@@ -67,7 +67,7 @@
   border: none;
   text-decoration: none;
   cursor: pointer;
-  background-color: #66E333;
+  background-color: #ffcf21;
   color: white;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -81,7 +81,7 @@
   border: none;
   text-decoration: none;
   cursor: pointer;
-  background-color: #e04435;
+  background-color: #1cfbff;
   color: white;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;

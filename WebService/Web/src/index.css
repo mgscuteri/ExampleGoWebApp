@@ -3,7 +3,7 @@ html {
   padding: 0px;
   margin: 0px;
   
-  background: linear-gradient(130deg, #06b5f0, #49e1f6);
+  background: linear-gradient(130deg, #ffffff, #f7f7f7);
   background-size: 400% 400%;
   
   -webkit-animation: NavBarGrad 0s ease infinite;
@@ -96,7 +96,7 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
