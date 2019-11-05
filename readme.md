@@ -10,9 +10,7 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 
 1) Install the Core Dependencies
 	A) go : https://golang.org/doc/install
-
 	B) MongoDB community edition (Run MongoDB on default port of 27017)
-
 	C) npm https://www.npmjs.com/get-npm (This is optional. Only needed if you want to make changes to the ReactApp)
 2) Clone this repository to your Go working directory (src folder)
 3) Install the Go dependancies
@@ -66,6 +64,7 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 	- Returns a list of all meal plans	
 ##### "/MealPlans/GetAllMealPlansByMarketId/{mealPlanId}" ("GET")
 	- Returns a list of all meal plans available for the given market id (typically 1 or 0)
+	
 #### *Semester Routes*
 ##### "/Semesters/GetAllSemestersByMarketId/{id}" ("GET")
 	- Returns a list of all semesters (name, startDate, endDate) for the given market
@@ -76,6 +75,7 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 ##### "/Semesters/CreateSemester/{marketId}"
 	- Creates a new semester, and associats it with the specified market
 	- Responds with the newly created ObjectId (string)
+	
 #### *User Routes*
 ##### "/Users/CreateUser" ("POST")
 	- Creates a new user, and associates the user with the specified Market, and MealPlan
