@@ -72,7 +72,7 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 	- Used to modify semester start/end dates
 	- Responds with the number of recofds affected (1 or 0)
 ##### "/Semesters/CreateSemester/{marketId}"
-	- Creates a new semeste	r, and associats it with the specified market
+	- Creates a new semester, and associats it with the specified market
 	- Responds with the newly created ObjectId (string)
 #### *User Routes*
 ##### "/Users/CreateUser" ("POST")
