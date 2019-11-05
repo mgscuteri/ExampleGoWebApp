@@ -3,7 +3,7 @@
 
 This project is meant to act as the foundation for a fully self contained website. It consists of a webserver written in Go that serves up static content, and acts as a REST server.  The static content that it serves is a React.js application. Below, are instructions on how to get the server up and running. Below that, is documentation on all of the servers currently supported REST endpoints.  The react app that this application serves can be reached by navigating to http://localhost:8080/site.  This website does not yet expose much of the REST capability.  It exists primarily to demonstrate static content being served on the same port as the webserver. (Thus avoiding any CORS security issues) 
 
-Included in this project is an Advanced Rest Client (ARC) project export, which when imported, provides an easy way to test most of the REST functionality. 
+Included in this project is an Advanced Rest Client (ARC) project export, which when imported, provides an easy way to test most of the REST functionality. (REST_Definition.arc)
 
 
 ### *Quick Start Instructions*
