@@ -69,6 +69,7 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 	- Returns a list of all semesters (name, startDate, endDate) for the given market
 ##### "/Semesters/UpdateSemester" ("POST")
 	- Updates an existing semester 
+	- Used to modify semester start/end dates
 	- Responds with the number of recofds affected (1 or 0)
 ##### "/Semesters/CreateSemester/{marketId}"
 	- Creates a new semeste	r, and associats it with the specified market
