@@ -63,7 +63,7 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 ##### "/MealPlans/GetAllMealPlans" ("GET")
 	- Returns a list of all meal plans	
 ##### "/MealPlans/GetAllMealPlansByMarketId/{mealPlanId}" ("GET")
-	- Returns a list of all meal plans available in for the given market id (typically 1 or 0)
+	- Returns a list of all meal plans available for the given market id (typically 1 or 0)
 #### *Semester Routes*
 ##### "/Semesters/GetAllSemestersByMarketId/{id}" ("GET")
 	- Returns a list of all semesters (name, startDate, endDate) for the given market
