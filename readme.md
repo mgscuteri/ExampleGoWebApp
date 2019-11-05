@@ -10,7 +10,9 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 
 1) Install the Core Dependencies
 	A) go : https://golang.org/doc/install
+
 	B) MongoDB community edition (Run MongoDB on default port of 27017)
+
 	C) npm https://www.npmjs.com/get-npm (This is optional. Only needed if you want to make changes to the ReactApp)
 2) Clone this repository to your Go working directory (src folder)
 3) Install the Go dependancies
