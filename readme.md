@@ -38,7 +38,7 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 	- Updates the meatadata of a market
 	- Responds with the table name, and number of records affected (1 or 0)
 ##### "/Markets/DeleteMarketById/{marketId}" ("DELETE")
-	- Deletes the specified market, and removes any USER/Market Association
+	- Deletes the specified market, and removes any USER/Market Associations
 	- Responds with the number of records affected (1 or 0)
 ##### "/Markets/GetAllMarkets" ("GET")
 	- Returns a list of all markets
