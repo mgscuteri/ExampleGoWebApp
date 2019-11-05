@@ -14,17 +14,17 @@ Included in this project is an Advanced Rest Client (ARC) project export, which 
 	C) npm https://www.npmjs.com/get-npm (This is optional. Only needed if you want to make changes to the ReactApp)  
 2) Clone this repository to your Go working directory (src folder)  
 3) Install the Go dependancies  
-	A) Official MongoDB driver (execute the shell script below)  
-		   - go get go.mongodb.org/mongo-driver  
-	B) gorrilla/mux (execute the shell script below)  
-		   - go get -u github.com/gorilla/mux  
+    A) Official MongoDB driver (execute the shell script below)  
+        - go get go.mongodb.org/mongo-driver  
+    B) gorrilla/mux (execute the shell script below)  
+        - go get -u github.com/gorilla/mux  
 4) Build the React App (Optional. Only necesary if you've changed the react app)  
-	A) navigate a terminal to /WebService/Web and run the shell script below  
-		   - npm run-script build  
+    A) navigate a terminal to /WebService/Web and run the shell script below  
+        - npm run-script build  
 4) Populate the database with sample data  
-	1) Build and run /Util/DBInit.go  
+    A) Build and run /Util/DBInit.go  
 5) Run the Web/API Server  
-	1) Build and run /WebService/Routing.go  
+    A) Build and run /WebService/Routing.go  
 6) Navigate to http://localhost:8080/site to see the example react app, or replace "/site" with any of the endpoints below to test the REST API functionality  
 
 
