@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"GoodUncleWebService/WebService/Singletons"
+	"ExampleGoWebApp/WebService/Singletons"
 	"ExampleGoWebApp/WebService/DataModels"
 	"ExampleGoWebApp/WebService/Repositories"
 )
